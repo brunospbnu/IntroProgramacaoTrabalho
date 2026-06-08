@@ -10,8 +10,8 @@ public class Jogo {
         iniciar();
 
         /*comentario criativo do herri */
-        //comentário supimpa
-        //comentário 2
+       
+        
         
     }
 
