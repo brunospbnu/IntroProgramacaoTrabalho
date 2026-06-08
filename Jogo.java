@@ -4,14 +4,10 @@ public class Jogo {
         String[] tesouros = new String[15];
         //.....
 
-        //Bruno
-
 
         iniciar();
 
-        /*comentario criativo do herri */
-        //comentário supimpa
-        //comentário 2
+        /*oi*/
         
     }
 
