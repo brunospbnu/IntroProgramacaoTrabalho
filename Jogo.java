@@ -17,6 +17,8 @@ public class Jogo {
         return tipos[posicao];
     }
     
+
+    
     public void iniciar() {
         //....
         System.out.println("Iniciou o jogo");
