@@ -6,6 +6,7 @@ public class Jogo {
         iniciar();
 
         /*comentario criativo do herri */
+        //comentário supimpa
     }
 
     private String sortear() {
