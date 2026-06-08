@@ -4,6 +4,8 @@ public class Jogo {
         String[] tesouros = new String[15];
         //.....
         iniciar();
+
+        /*comentario criativo do herri */
     }
 
     private String sortear() {
