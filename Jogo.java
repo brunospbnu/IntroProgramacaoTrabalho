@@ -3,6 +3,10 @@ public class Jogo {
     public Jogo() {
         String[] tesouros = new String[15];
         //.....
+
+        //Bruno
+
+
         iniciar();
     }
 
