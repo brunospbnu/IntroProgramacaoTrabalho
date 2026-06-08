@@ -8,6 +8,8 @@ public class Jogo {
 
 
         iniciar();
+
+        /*comentario criativo do herri */
     }
 
     private String sortear() {
@@ -20,6 +22,8 @@ public class Jogo {
         //System.out.println(posicao + " " + tipos[posicao]);
         return tipos[posicao];
     }
+    
+
     
     public void iniciar() {
         //....
