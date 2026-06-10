@@ -8,7 +8,7 @@ public class Jogo {
         String[] posicoesExploradas = new String[ilha.length];
         int pontuacao = 0;
         int tentativas = 8;
-        int tenativasRestantes = tentativas;
+        int tentativasRestantes = tentativas;
         int tesourosEncontrados = 0;
         int armadilhasEncontradas = 0;
         int posicoesVaziasExploradas = 0;
@@ -16,7 +16,7 @@ public class Jogo {
         iniciar();
         int quantidadeTesouros = inicializarIlha(ilha);
         inicializarControleExplorado(posicoesExploradas);
-        executarOpcao(s,ilha,posicoesExploradas, pontuacao, tentativas, tenativasRestantes, tesourosEncontrados, armadilhasEncontradas, posicoesVaziasExploradas, pontosMinimosParaGanhar, quantidadeTesouros);
+        executarOpcao(s,ilha,posicoesExploradas, pontuacao, tentativas, tentativasRestantes, tesourosEncontrados, armadilhasEncontradas, posicoesVaziasExploradas, pontosMinimosParaGanhar, quantidadeTesouros);
         s.close();
     }
 
@@ -87,7 +87,7 @@ public class Jogo {
                             tesourosEncontrados = 0;
                             armadilhasEncontradas = 0;
                             posicoesVaziasExploradas = 0;
-                            inicializarIlha(ilha);
+                            quantidadeTesouros = inicializarIlha(ilha);
                             inicializarControleExplorado(posicoesExploradas);
                         }
                     }
@@ -168,7 +168,7 @@ public class Jogo {
         }
         else if (ilha[posicaoAtual].equals("OURO")) {
             pontuacaoAtual = 10;
-            System.out.println("Você encontrou um Outro: + 10 pontos");
+            System.out.println("Você encontrou um Ouro: + 10 pontos");
         }
         else if (ilha[posicaoAtual].equals("BURACO")) {
             pontuacaoAtual = -5;
