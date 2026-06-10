@@ -99,7 +99,7 @@ public class Jogo {
                     mostrarResultado(pontuacao, tesourosEncontrados, armadilhasEncontradas, posicoesVaziasExploradas, pontosMinimosParaGanhar, quantidadeTesouros);
                     System.out.println("Jogo Encerrado.");
                 break;
-                case 77:
+                case 67:
                     secretoMostrarIlha(ilha);
                 default:
                     System.out.print("Opção inválida !!!");
