@@ -99,6 +99,8 @@ public class Jogo {
                     mostrarResultado(pontuacao, tesourosEncontrados, armadilhasEncontradas, posicoesVaziasExploradas, pontosMinimosParaGanhar, quantidadeTesouros);
                     System.out.println("Jogo Encerrado.");
                 break;
+                case 77:
+                    secretoMostrarIlha(ilha);
                 default:
                     System.out.print("Opção inválida !!!");
             
@@ -128,6 +130,12 @@ public class Jogo {
             System.out.println("[" + i + "] " + posicoesExploradas[i]);
         }
 
+    }
+
+    private void secretoMostrarIlha(String[] ilha) {
+        for (int i = 0; i < ilha.length; i++) {
+            System.out.println("[" + i + "] " + ilha[i]);
+        }
     }
     
     private int lerPosicaoEValidar(Scanner s, String[] ilha, String[] posicoesExploradas) {
