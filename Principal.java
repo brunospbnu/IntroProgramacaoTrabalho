@@ -1,3 +1,7 @@
+//Bruno Schwabe Patricio
+//Herri Wolter Voigt
+//Davi Nathan Hames
+
 public class Principal {
    
     public Principal() {

@@ -1,3 +1,7 @@
+//Bruno Schwabe Patricio
+//Herri Wolter Voigt
+//Davi Nathan Hames
+
 import java.util.Scanner;
 
 public class Jogo {
